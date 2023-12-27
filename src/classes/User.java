@@ -23,6 +23,7 @@ public class User {
      */
     public User(String n, String u, String p) {
         name = n; username = u; password = p;
+        friends = new ArrayList<User>();
     }
 
     /**
@@ -50,6 +51,12 @@ public class User {
      */
     public void addFriend(User u) {
         friends.add(u);
+    }
+
+    public ArrayList<User> getFriends() {return friends;}
+
+    public String toString() {
+        return ("Name: " + name + "\nUsername: " + username + "\n->");
     }
 
 }
