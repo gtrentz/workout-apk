@@ -37,6 +37,6 @@ class UserTest {
     @Test
     void testToString() {
         User u = new User("Johnny Appleseed", "japple", "appletree");
-        assertEquals(u.toString(), "Name: Johnny Appleseed\nUsername: japple\n->");
+        assertEquals(u.toString(), "Name: Johnny Appleseed\nUsername: japple\n->\n");
     }
 }

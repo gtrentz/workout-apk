@@ -56,7 +56,7 @@ public class User {
     public ArrayList<User> getFriends() {return friends;}
 
     public String toString() {
-        return ("Name: " + name + "\nUsername: " + username + "\n->");
+        return ("Name: " + name + "\nUsername: " + username + "\n->\n");
     }
 
 }
